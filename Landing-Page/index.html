@@ -4,116 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/style/style.css">
-    <title>Desainer Gratis Landing Page</title>
+    <title>Desainer Gratis</title>
+    <link rel="stylesheet" href="src/assets/style/style.css">
 </head>
 <body>
 
-    <header>
-        <h1>Desainer Gratis</h1>
-        <nav>
-            <ul>
-       
-            <li>
-                <a href="#home">
-                Home
-            </a>
-            </li>
-            <li>
-                <a href="#about">
-                About
-            </a>
-            </li>
-            <li>
-                <a href="#findme">
-                Find me
-            </a>
-            </li>
-        </ul>
-        </nav>
-    </header>
 
-    <main>
-        <div id="content" >
+<main>
+    <div id="content">
 
-            <article id="about" class="about">
-                
-                
-                <header>
-                    <h1>About me</h1>
-                </header>
-                <p>
-                    Hello, my name is Andesta Febrianto Nainggolan right now i'm 27 years old and
-                    this is my website that i've created for introduce myself as a web developer, game streamer and etc.
-                    you can see all job that i've done and my social media.
-                </p>
-          
+
+        <div class="left-content">
+            <header>
                 <figure>
-                  <img src="src/assets/img/myself.png" title="myself" alt="profile-picture" class="img-page">
+                    <img src="src/assets/img/myself-transparent.png" alt="myself-transparent" title="myself-transparent">
                 </figure>
-          
-            </article>
 
-            <article class="streamer">
-                    <header>
-                        <h1>Game Streamer</h1>
-                    </header>
-                    <p>Right now i'm work as a <em>Official Streamer</em> at seal online strongworld it's almost 1 years
-                    i've been working as a streamer. 
-                    </p>
-                    <p>You can play game and talk with me through youtube, i'm live 2 time's a week every saturday and sunday.</p>
-          
-                    <figure>
-                        <object data='https://www.youtube.com/embed/nfk6sCzRTbM?autoplay=1' 
-                        width='100%' height='315px'>
-                    </object>
-                    </figure>
-               
-            </article>
-
-            <article class="web-dev">
-               
-                    <header>
-                        <h1>Web Developer</h1>
-                     
-                    </header>
-               
-                    <p>As a web developer, I have to manage my portfolio in order to show all 
-                        job that i've done to customer who want to pay me as a web developer
-                    </p>
-                    <p>You can see my portfolio by clicking image beside this </p>
-            </article>
-      
-    </div> 
+                <h1>Desainer Gratis &copy; 2023 </h1>
+            </header>
+        </div>
 
 
-                <aside>
-                    <header>
-                        <h1>Find me on social media</h1>
-                        </header>
-                        <ul>
-                            <li>
-                                <a href="twitter.com">Instagram</a>
-                            </li>
-                            <li>
-                                <a href="github.com">Github</a>
-                            </li>
+        <div class="right-content">
+            <header>
+                <h1>Sign up</h1>
+            </header>
 
-                            <li>
-                                <a href="youtube.com">Youtube</a>
-                            </li>
-                        </ul>
-                    </header>
-                </aside>
+            <section class="form-container card">
+            <form action="">
+                <div>
+                        <input type="text" name="username" placeholder="Input your username" class="form-input" required>
+                </div>
+                <div>
+                    <input type="text" name="email" placeholder="Input your email" class="form-input" required>
+                </div>
 
+                <div>
+                    <input type="password" name="password" placeholder="Input your password" class="form-input" required>
+                </div>
 
-    
-    </main>
+                <div class="target-link-container">
+                    <a href="#account" class="target-link">
+                    <p> If you have an account just click here to login form </p>
+                </a>
+            </div>
 
-   
+                <div class="btn-container">
+                    <button type="submit" class="btn-action" name="btn-signup">Sign up</button>
+                </div>
+            </form>
+        </section>
+        </div>
+    </div>
+</main>
+
     <footer>
-        <p>&copy; Desainer Gratis 2023</p>
-      </footer>
+        <p>Desainer Gratis &copy; 2023</p>
+    </footer>
     
 </body>
 </html>
